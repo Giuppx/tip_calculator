@@ -1,6 +1,6 @@
 :root {
     --body-Bg-Color: #f2f2f2;
-    --btn-color: #45a049;
+    --btn-color: #4caf50;
     --btn-text-color: #FFF;
     --input-border-color: #ccc;
 }
@@ -66,6 +66,11 @@ button {
     text-align: center;
     border: none;
     cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 .total-value {
