@@ -62,7 +62,7 @@ function displayTotal(total) {
     const totalLabel = document.createTextNode('Total: ');
 
     const totalValueSpan = document.createElement('span');
-    totalValueSpan.textContent = total;
+    totalValueSpan.textContent = `$${total}`;
     totalValueSpan.classList.add('total-value');
 
     totalContainer.appendChild(totalLabel);
